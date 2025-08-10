@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+:root {
+    --c1:#5B4B8A;
+    --c2:#A47EB2;
+    --c3:#E8A26F;
+    --c4:#FFCBA4;
+    --c5:#D4B375;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    overflow-x: hidden;
+}
+.container {
+    position: relative;
+    width: 100vw;
+    height: fit-content;
+    background: linear-gradient(120deg , var(--c1), var(--c2), var(--c3), var(--c4), var(--c5));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper {
+    position: relative;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 500px;
+    margin: 2rem 0;
+}
+h1 {
+    text-align: center;
+}
+input[name="nama"], input[name="email"] {
+    border: 0px;
+    padding-left: .7rem;
+    position: absolute;
+    width: 19rem;
+    right: 2rem;
+    border-radius: 5px;
+}
+select[name="kelas"], select[name="jurusan"] {
+    border: 0px;
+    padding-left: .5rem;
+    position: absolute;
+    width: 19rem;
+    right: 2rem;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    width: 100%;
+    border: 0px;
+    background: linear-gradient(120deg , var(--c1), var(--c2), var(--c3));
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 1rem;
+}
