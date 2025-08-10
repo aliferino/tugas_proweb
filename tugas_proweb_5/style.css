@@ -6,3 +6,41 @@
     --c4:#FFCBA4;
     --c5:#D4B375;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    overflow-x: hidden;
+}
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(120deg , var(--c1), var(--c2), var(--c3), var(--c4), var(--c5));
+    padding: 1rem 3rem;
+}
+.tugas5a, .tugas5b, .tugas5c {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+table {
+    border: 1px solid black;
+}
+th, td {
+    padding: 0 1rem;
+    font-size: .6rem;
+}
+td {
+    border-top: 1px solid black ;
+}
+ul {
+    list-style-position: inside;
+    list-style-type: square;
+}
+ol {
+    list-style-position: inside;
+    list-style-type: upper-roman;
+}
